@@ -1,0 +1,22 @@
+{
+    "keyboard_name": "wDactyl",
+    "manufacturer": "Jan Lunge",
+    "keyboard": "wDactyl",
+    "url": "https://blog.heaper.de/wDactyl/",
+    "maintainer": "Jan Lunge",
+    "width": 14,
+    "height": 6,
+    "keymap": "default",
+    "diode_direction": "COL2ROW",
+    "usb":{
+        "pid": "0xDEEB",
+        "vid": "0xEEEE",
+        "device_version": "1.0.0"
+    },
+    "layouts": {
+
+    },
+    "layers": [
+
+    ]
+}
