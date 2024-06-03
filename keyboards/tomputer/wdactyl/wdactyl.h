@@ -10,6 +10,10 @@
 	L40, L41, L42, L43, L44, L45, R45, R44, R43, R42, R41, R40, \
               L52, L53, L54, L55, R55, R54, R53, R52,           \
               L62, L63, L64,           R64, R63, R62
+
+
+    Taking the thumb clusters (L55, L54, L64, L63, L62) and same from other side and moving them to the middle
+    Effectively pretending I set this up the same as JanLunge did
 */
 #define LAYOUT( \
 	L00, L01, L02, L03, L04, L05, L55, R55, R05, R04, R03, R02, R01, R00, \

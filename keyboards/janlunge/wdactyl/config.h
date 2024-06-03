@@ -1,19 +1,21 @@
 #pragma once
 
 /* key matrix size */
-#define MATRIX_ROWS 14
-#define MATRIX_COLS 6
+#define MATRIX_ROWS 12
+#define MATRIX_COLS 7
 
-#define MATRIX_ROW_PINS { F5, F6, F7, B1, B3, B2, B6 }
-#define MATRIX_COL_PINS { B5, B4, E6, D7, C6, D4 }
+#define MATRIX_ROW_PINS { F6, F7, B1, B3, B2, B6 }
+#define MATRIX_COL_PINS { B5, B4, E6, D7, C6, D4, D0 }
 
+#define WS2812_DI_PIN F4
+#define DRIVER_LED_TOTAL 2
 
 /* Use I2C or Serial, not both */
 #define USE_SERIAL
 // #define USE_I2C
-#define SOFT_SERIAL_PIN D0
+#define SOFT_SERIAL_PIN D1
 
-// #define MASTER_LEFT
+#define MASTER_LEFT
 // #define MASTER_RIGHT
 
 /* Set 0 if debouncing isn't needed */
@@ -23,7 +25,7 @@
 #define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
 
 // Homerow mods
-// #define TAPPING_TERM 200
+#define TAPPING_TERM 200
 // Prevent normal rollover on alphas from accidentally triggering mods.
 // now is the default
 // #define IGNORE_MOD_TAP_INTERRUPT
