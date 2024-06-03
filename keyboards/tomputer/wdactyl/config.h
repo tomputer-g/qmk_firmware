@@ -14,7 +14,7 @@
 #define SOFT_SERIAL_PIN D0
 
 // #define MASTER_LEFT
-// #define MASTER_RIGHT
+// #define MASTER_RIGHT6
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
